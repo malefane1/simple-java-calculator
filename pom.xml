@@ -89,6 +89,16 @@
              </execution>
           </executions>
           </plugin>
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>findbugs-maven-plugin</artifactId>
+            <version>3.0.4</version>
+            <configuration>
+              <xmlOutput>true</xmlOutput>
+              <findXmlOutput>true</findXmlOutput>
+              <findXmlWithMessages>true</findXmlWithMessages>
+            </configuration>
+          </plugin>
       </plugins>
     </pluginManagement>
   </build>
