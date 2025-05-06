@@ -14,6 +14,6 @@ public class SimpleAdditionTest {
      */
     @Test
     public void shouldAnswerWithTrue() {
-        assertEquals(5, new SimpleAddition().add(2, 2));
+        assertEquals(5, new SimpleAddition().add(2, 3));
     }
 }
