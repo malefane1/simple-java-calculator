@@ -103,5 +103,5 @@
               <findXmlWithMessages>true</findXmlWithMessages>
             </configuration>
           </plugin>
-  </report>
+  </reporting>
 </project>
