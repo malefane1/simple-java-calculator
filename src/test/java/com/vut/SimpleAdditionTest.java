@@ -1,5 +1,6 @@
 package com.vut;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -13,6 +14,6 @@ public class SimpleAdditionTest {
      */
     @Test
     public void shouldAnswerWithTrue() {
-        assertTrue(true);
+        assertEquals(4, new SimpleAddition().add(2, 2));
     }
 }
